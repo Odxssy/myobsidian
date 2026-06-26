@@ -13,6 +13,7 @@
    git push -u origin master
 4. Дальше все пуши будут делаться так :
    git add .
-   git commit "1"
-   git push .
+   git commit -m "."
+   git push 
+5. В случае ошибки "Another git process seems to be running in this repository, or the lock file may be stale" - был создан скрипт .lock, его видно если включить отображение системных файлов или можно удалить командой del .git\index.lock
    
